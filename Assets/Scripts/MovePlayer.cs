@@ -11,7 +11,6 @@ public class MovePlayer : MonoBehaviour
     [SerializeField] private float gravity = 0.05f;
     [SerializeField] private int _scoreJump=0;
     private int twojump = 2;
-    [SerializeField] float speed_Run = 10f;
     [SerializeField] private CharacterController _player;
     Vector3 move_Direction;
     private int scoreMoney;

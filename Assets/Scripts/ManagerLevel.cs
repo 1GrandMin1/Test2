@@ -17,4 +17,8 @@ public class ManagerLevel : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+    public void MenuLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
